@@ -15,7 +15,7 @@ const router = createRouter({
 	scrollRestoration: true,
 	defaultStructuralSharing: true,
 	defaultPreloadStaleTime: 0,
-	basepath: '/tsr-hash-link-issue',
+	basepath: '/tsr-hash-routing-issue',
 });
 
 // Register the router instance for type safety

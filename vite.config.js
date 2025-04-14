@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: '/tsr-hash-link-issue',
+	base: '/tsr-hash-routing-issue',
 	plugins: [TanStackRouterVite({ autoCodeSplitting: true }), viteReact()],
 	test: {
 		globals: true,
