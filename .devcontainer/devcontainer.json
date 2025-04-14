@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+  "name": "tsr-hash-link-issue",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "pnpmVersion": "10"
+    }
+  },
+  "runArgs": ["--name", "tsr-hash-link-issue"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
